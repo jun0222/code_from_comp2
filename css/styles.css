@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* リセットcss */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* リセットcss */
+.top {
+  display: grid;
+  margin: 0;
+  min-height: 100vh;
+  grid-template-rows: 360px 1fr 137px;
+  grid-template-columns: 1fr;
+  row-gap: 40px; }
+  .top__header {
+    background-image: url("../img/bg-header_sp.png");
+    height: 100%;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 48px 89px 82px 1fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center; }
+    .top__header--main-content {
+      text-align: center; }
+    .top__header--main-content1 {
+      font-size: 50px;
+      color: #C32D4D;
+      font-family: EB Garamond;
+      margin-bottom: 5px; }
+      .top__header--main-content1 small {
+        font-size: 30px; }
+    .top__header--title img {
+      padding: 15px; }
+  .top__main {
+    display: grid;
+    grid-template-rows: 618px 310px; }
+    .top__main--sentences {
+      padding-right: 20px;
+      padding-left: 20px; }
+    .top__main--sentence {
+      color: #333333;
+      font-family: Noto Sans JP Regular;
+      line-height: 25px; }
+    .top__main--sentence1 {
+      font-size: 15px; }
+    .top__main--sentence2 {
+      font-size: 14px; }
+      .top__main--sentence2 img {
+        float: left;
+        padding-right: 10px;
+        padding-bottom: 14px; }
+    .top__main__links {
+      padding-top: 22px;
+      padding-bottom: 32px; }
+      .top__main__links a {
+        color: #C32D4D; }
+    .top__main--image {
+      display: grid;
+      justify-content: center; }
+  .top__footer {
+    background-color: #C32D4D;
+    font-family: EB Garamond; }
+    .top__footer--contents {
+      display: grid;
+      grid-template-rows: 40px 21px;
+      justify-content: center;
+      column-gap: 30px; }
+    .top__footer--content {
+      grid-row: 2 / 3;
+      color: #FFFFFF; }
+    .top__footer--copyright {
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 40px;
+      color: #F9B1C0; }
+
+/*# sourceMappingURL=styles.css.map */
