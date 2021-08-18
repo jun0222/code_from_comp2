@@ -1,0 +1,28 @@
+.menu {
+    display: grid;
+    grid-template-rows: 160px 1fr 137px;
+    &__main {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 26px;
+        column-gap: 15px;
+        margin: 0 auto;
+        padding: 40px 0;
+        &--content {
+            img {
+                margin-bottom: 9px;
+            }
+            &--product-name {
+                margin-bottom: 7px;
+                color: #BA4862;
+                font-size: 13px;
+                font-family: Noto Sans JP Regular;
+            }
+            &--price {
+                color: #333333;
+                font-size: 12px;
+            }
+        }
+    }
+}

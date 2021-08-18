@@ -1,0 +1,27 @@
+.common__header {
+    background-image: url(../img/bg-header_sp.png);
+    height: 100%;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 48px 55px 1fr;
+    row-gap: 3px;
+    align-items: center;
+    &--title img {
+        padding: 15px;
+    }
+    &--main-contents {
+        grid-row: 2 / 3;
+        text-align: center;
+    }
+    &--main-content1 {
+        color: #C32D4D;
+        font-family: EB Garamond;
+        margin-bottom: 3px;
+        font-size: 32px;
+    }
+    &--main-content2 {
+        color: #333333;
+        font-family: EB Garamond;
+        font-size: 11px;
+    }
+}
