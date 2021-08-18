@@ -1,0 +1,21 @@
+.access__main {
+    margin: 40px 0;
+    &__map {
+        text-align: center;
+    }
+    &__texts {
+        margin: 0 20px;
+        font-size: 15px;
+        color: #333333;
+        font-family: Noto Sans JP Regular;
+    }
+    &__text1 {
+        margin-bottom: 37px;
+    }
+    &__text2 {
+        margin-bottom: 23px;
+        span {
+            font-family:EB Garamond;
+        }
+    }
+}
