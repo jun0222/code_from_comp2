@@ -133,6 +133,10 @@ table {
         &--content {
             grid-row: 2 / 3;
             color: #FFFFFF;
+            a {
+                text-decoration: none;
+                color: #FFFFFF;
+            }
         }
         &--copyright {
             text-align: center;
