@@ -77,7 +77,8 @@ table {
       padding: 15px; }
   .top__main {
     display: grid;
-    grid-template-rows: 618px 310px; }
+    grid-template-rows: 1fr 310px;
+    row-gap: 26px; }
     .top__main--sentences {
       padding-right: 20px;
       padding-left: 20px; }
