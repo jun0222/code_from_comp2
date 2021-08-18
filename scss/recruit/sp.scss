@@ -1,0 +1,28 @@
+.recruit__main {
+    padding: 40px 20px;
+    color: #333333;
+    &__title {
+        text-align: center;
+        padding-top: 4px;
+        padding-bottom: 8px;
+    }
+    &--text {
+        padding: 40px 0;
+        border-bottom: 1px solid #E2E2E2;
+        &--title {
+            margin-bottom: 12px;
+        }
+    }
+}
+
+.list-style{
+    &-circle {
+        list-style: circle;
+        list-style-position: inside;
+        padding-left: 16px;
+    }
+    &-disc {
+        list-style: disc;
+        list-style-position: inside;
+    }
+}
