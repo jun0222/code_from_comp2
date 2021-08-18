@@ -113,6 +113,9 @@ table {
     .top__footer--content {
       grid-row: 2 / 3;
       color: #FFFFFF; }
+      .top__footer--content a {
+        text-decoration: none;
+        color: #FFFFFF; }
     .top__footer--copyright {
       text-align: center;
       padding-top: 20px;
