@@ -48,6 +48,26 @@ table {
   border-spacing: 0; }
 
 /* リセットcss */
+.footer {
+  background-color: #C32D4D;
+  font-family: EB Garamond; }
+  .footer--contents {
+    display: grid;
+    grid-template-rows: 40px 21px;
+    justify-content: center;
+    column-gap: 30px; }
+  .footer--content {
+    grid-row: 2 / 3;
+    color: #FFFFFF; }
+    .footer--content a {
+      text-decoration: none;
+      color: #FFFFFF; }
+  .footer--copyright {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: #F9B1C0; }
+
 .top {
   display: grid;
   margin: 0;
@@ -102,25 +122,6 @@ table {
     .top__main--image {
       display: grid;
       justify-content: center; }
-  .top__footer {
-    background-color: #C32D4D;
-    font-family: EB Garamond; }
-    .top__footer--contents {
-      display: grid;
-      grid-template-rows: 40px 21px;
-      justify-content: center;
-      column-gap: 30px; }
-    .top__footer--content {
-      grid-row: 2 / 3;
-      color: #FFFFFF; }
-      .top__footer--content a {
-        text-decoration: none;
-        color: #FFFFFF; }
-    .top__footer--copyright {
-      text-align: center;
-      padding-top: 20px;
-      padding-bottom: 40px;
-      color: #F9B1C0; }
 
 .top__header--menu-btn--btn {
   position: fixed;
