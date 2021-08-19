@@ -1,27 +1,69 @@
-.common__header {
-    background-image: url(../img/bg-header_sp.png);
-    height: 100%;
-    background-size: cover;
-    display: grid;
-    grid-template-rows: 48px 55px 1fr;
-    row-gap: 3px;
-    align-items: center;
-    &--title img {
-        padding: 15px;
+@media screen and (min-width:1024px) {
+    .common__header {
+        background-image: url(../img/bg-header_pc.png);
+        height: 100%;
+        background-size: cover;
+        display: grid;
+        grid-template-rows:30px 26px 80px 1fr;
+        grid-template-columns: 1fr 112px 1fr;
+        align-items: center;
+        &--title{
+            grid-row: 2 / 3;
+            grid-column: 1 / 2;
+            img {
+                padding-left: 30px;
+            }
+        }
+        &--main-contents {
+            grid-row: 3 / 4;
+            grid-column: 2 / 3;
+            text-align: center;
+            padding-top: 3px;
+        }
+        &--main-content1 {
+            color: #C32D4D;
+            font-family: EB Garamond;
+            margin-bottom: 3px;
+            font-size: 48px;
+        }
+        &--main-content2 {
+            color: #333333;
+            font-family: EB Garamond;
+            font-size: 14px;
+        }
+        &--menu-btn{
+            grid-row: 2 / 3;
+            grid-column: 3 / 4;
+        }
     }
-    &--main-contents {
-        grid-row: 2 / 3;
-        text-align: center;
-    }
-    &--main-content1 {
-        color: #C32D4D;
-        font-family: EB Garamond;
-        margin-bottom: 3px;
-        font-size: 32px;
-    }
-    &--main-content2 {
-        color: #333333;
-        font-family: EB Garamond;
-        font-size: 11px;
+}
+
+@media screen and (max-width:1023px) {
+    .common__header {
+        background-image: url(../img/bg-header_sp.png);
+        height: 100%;
+        background-size: cover;
+        display: grid;
+        grid-template-rows: 48px 55px 1fr;
+        row-gap: 3px;
+        align-items: center;
+        &--title img {
+            padding: 15px;
+        }
+        &--main-contents {
+            grid-row: 2 / 3;
+            text-align: center;
+        }
+        &--main-content1 {
+            color: #C32D4D;
+            font-family: EB Garamond;
+            margin-bottom: 3px;
+            font-size: 32px;
+        }
+        &--main-content2 {
+            color: #333333;
+            font-family: EB Garamond;
+            font-size: 11px;
+        }
     }
 }

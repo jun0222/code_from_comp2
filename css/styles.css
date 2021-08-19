@@ -150,29 +150,60 @@ table {
 @media screen and (min-width: 1024px) {
   #menu-btn-check {
     display: none; } }
-.common__header {
-  background-image: url(../img/bg-header_sp.png);
-  height: 100%;
-  background-size: cover;
-  display: grid;
-  grid-template-rows: 48px 55px 1fr;
-  row-gap: 3px;
-  align-items: center; }
-  .common__header--title img {
-    padding: 15px; }
-  .common__header--main-contents {
-    grid-row: 2 / 3;
-    text-align: center; }
-  .common__header--main-content1 {
-    color: #C32D4D;
-    font-family: EB Garamond;
-    margin-bottom: 3px;
-    font-size: 32px; }
-  .common__header--main-content2 {
-    color: #333333;
-    font-family: EB Garamond;
-    font-size: 11px; }
-
+@media screen and (min-width: 1024px) {
+  .common__header {
+    background-image: url(../img/bg-header_pc.png);
+    height: 100%;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 30px 26px 80px 1fr;
+    grid-template-columns: 1fr 112px 1fr;
+    align-items: center; }
+    .common__header--title {
+      grid-row: 2 / 3;
+      grid-column: 1 / 2; }
+      .common__header--title img {
+        padding-left: 30px; }
+    .common__header--main-contents {
+      grid-row: 3 / 4;
+      grid-column: 2 / 3;
+      text-align: center;
+      padding-top: 3px; }
+    .common__header--main-content1 {
+      color: #C32D4D;
+      font-family: EB Garamond;
+      margin-bottom: 3px;
+      font-size: 48px; }
+    .common__header--main-content2 {
+      color: #333333;
+      font-family: EB Garamond;
+      font-size: 14px; }
+    .common__header--menu-btn {
+      grid-row: 2 / 3;
+      grid-column: 3 / 4; } }
+@media screen and (max-width: 1023px) {
+  .common__header {
+    background-image: url(../img/bg-header_sp.png);
+    height: 100%;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 48px 55px 1fr;
+    row-gap: 3px;
+    align-items: center; }
+    .common__header--title img {
+      padding: 15px; }
+    .common__header--main-contents {
+      grid-row: 2 / 3;
+      text-align: center; }
+    .common__header--main-content1 {
+      color: #C32D4D;
+      font-family: EB Garamond;
+      margin-bottom: 3px;
+      font-size: 32px; }
+    .common__header--main-content2 {
+      color: #333333;
+      font-family: EB Garamond;
+      font-size: 11px; } }
 @media screen and (min-width: 1024px) {
   .top {
     display: grid;
@@ -304,28 +335,50 @@ table {
       .top__main--image {
         display: grid;
         justify-content: center; } }
-.menu {
-  display: grid;
-  grid-template-rows: 160px 1fr 137px; }
-  .menu__main {
+@media screen and (min-width: 1024px) {
+  .menu {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 26px;
-    column-gap: 15px;
-    margin: 0 auto;
-    padding: 40px 0; }
-    .menu__main--content img {
-      margin-bottom: 9px; }
-    .menu__main--content--product-name {
-      margin-bottom: 7px;
-      color: #BA4862;
-      font-size: 13px;
-      font-family: Noto Sans JP Regular; }
-    .menu__main--content--price {
-      color: #333333;
-      font-size: 12px; }
-
+    grid-template-rows: 200px 1fr 167px; }
+    .menu__main {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      row-gap: 50px;
+      column-gap: 30px;
+      margin: 0 auto;
+      padding: 70px 0; }
+      .menu__main--content img {
+        margin-bottom: 9px; }
+      .menu__main--content--product-name {
+        margin-bottom: 7px;
+        color: #BA4862;
+        font-size: 13px;
+        font-family: Noto Sans JP Regular; }
+      .menu__main--content--price {
+        color: #333333;
+        font-size: 12px; } }
+@media screen and (max-width: 1023px) {
+  .menu {
+    display: grid;
+    grid-template-rows: 160px 1fr 137px; }
+    .menu__main {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 26px;
+      column-gap: 15px;
+      margin: 0 auto;
+      padding: 40px 0; }
+      .menu__main--content img {
+        margin-bottom: 9px; }
+      .menu__main--content--product-name {
+        margin-bottom: 7px;
+        color: #BA4862;
+        font-size: 13px;
+        font-family: Noto Sans JP Regular; }
+      .menu__main--content--price {
+        color: #333333;
+        font-size: 12px; } }
 .access__main {
   padding: 40px 0; }
   .access__main__map {
