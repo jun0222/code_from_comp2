@@ -1,17 +1,25 @@
-@media screen and (max-width:1023px) {
+@media screen and (min-width:1024px) {
     .recruit__main {
         padding: 40px 20px;
         color: #333333;
+        width: 70%;
+        margin: 0 auto;
         &__title {
             text-align: center;
             padding-top: 4px;
             padding-bottom: 8px;
+            font-size: 24px;
+        }
+        &--texts {
+            font-size: 15px;
         }
         &--text {
             padding: 40px 0;
             border-bottom: 1px solid #E2E2E2;
+            display: flex;
             &--title {
                 margin-bottom: 12px;
+                width: 218px;
             }
         }
     }

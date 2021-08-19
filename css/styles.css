@@ -413,27 +413,55 @@ table {
       font-size: 15px; }
       .access__main__text2 span {
         font-family: EB Garamond; } }
-.recruit__main {
-  padding: 40px 20px;
-  color: #333333; }
-  .recruit__main__title {
-    text-align: center;
-    padding-top: 4px;
-    padding-bottom: 8px; }
-  .recruit__main--text {
-    padding: 40px 0;
-    border-bottom: 1px solid #E2E2E2; }
-    .recruit__main--text--title {
-      margin-bottom: 12px; }
+@media screen and (max-width: 1023px) {
+  .recruit__main {
+    padding: 40px 20px;
+    color: #333333; }
+    .recruit__main__title {
+      text-align: center;
+      padding-top: 4px;
+      padding-bottom: 8px; }
+    .recruit__main--text {
+      padding: 40px 0;
+      border-bottom: 1px solid #E2E2E2; }
+      .recruit__main--text--title {
+        margin-bottom: 12px; }
 
-.list-style-circle {
-  list-style: circle;
-  list-style-position: inside;
-  padding-left: 16px; }
-.list-style-disc {
-  list-style: disc;
-  list-style-position: inside; }
+  .list-style-circle {
+    list-style: circle;
+    list-style-position: inside;
+    padding-left: 16px; }
+  .list-style-disc {
+    list-style: disc;
+    list-style-position: inside; } }
+@media screen and (min-width: 1024px) {
+  .recruit__main {
+    padding: 40px 20px;
+    color: #333333;
+    width: 70%;
+    margin: 0 auto; }
+    .recruit__main__title {
+      text-align: center;
+      padding-top: 4px;
+      padding-bottom: 8px;
+      font-size: 24px; }
+    .recruit__main--texts {
+      font-size: 15px; }
+    .recruit__main--text {
+      padding: 40px 0;
+      border-bottom: 1px solid #E2E2E2;
+      display: flex; }
+      .recruit__main--text--title {
+        margin-bottom: 12px;
+        width: 218px; }
 
+  .list-style-circle {
+    list-style: circle;
+    list-style-position: inside;
+    padding-left: 16px; }
+  .list-style-disc {
+    list-style: disc;
+    list-style-position: inside; } }
 /* パソコンで見たときは"pc"のclassがついた画像が表示される */
 .pc {
   display: block !important; }
