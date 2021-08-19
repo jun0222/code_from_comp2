@@ -379,22 +379,40 @@ table {
       .menu__main--content--price {
         color: #333333;
         font-size: 12px; } }
-.access__main {
-  padding: 40px 0; }
-  .access__main__map {
-    text-align: center; }
-  .access__main__texts {
-    margin: 0 20px;
-    font-size: 15px;
-    color: #333333;
-    font-family: Noto Sans JP Regular; }
-  .access__main__text1 {
-    margin-bottom: 37px; }
-  .access__main__text2 {
-    margin-bottom: 23px; }
-    .access__main__text2 span {
-      font-family: EB Garamond; }
-
+@media screen and (max-width: 1023px) {
+  .access__main {
+    padding: 40px 0; }
+    .access__main__map {
+      text-align: center; }
+    .access__main__texts {
+      margin: 0 20px;
+      font-size: 15px;
+      color: #333333;
+      font-family: Noto Sans JP Regular; }
+    .access__main__text1 {
+      margin-bottom: 37px; }
+    .access__main__text2 {
+      margin-bottom: 23px; }
+      .access__main__text2 span {
+        font-family: EB Garamond; } }
+@media screen and (min-width: 1024px) {
+  .access__main {
+    padding: 40px 0; }
+    .access__main__map {
+      text-align: center; }
+    .access__main__texts {
+      width: 70%;
+      margin: 0 auto;
+      font-size: 16px;
+      color: #333333;
+      font-family: Noto Sans JP Regular; }
+    .access__main__text1 {
+      margin-bottom: 37px; }
+    .access__main__text2 {
+      margin-bottom: 23px;
+      font-size: 15px; }
+      .access__main__text2 span {
+        font-family: EB Garamond; } }
 .recruit__main {
   padding: 40px 20px;
   color: #333333; }
