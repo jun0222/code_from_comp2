@@ -476,5 +476,11 @@ table {
 
   .sp {
     display: block !important; } }
+.hover-opacity {
+  transition: 300ms; }
+
+.hover-opacity:hover {
+  opacity: 0.7;
+  color: #FFFFFF; }
 
 /*# sourceMappingURL=styles.css.map */
