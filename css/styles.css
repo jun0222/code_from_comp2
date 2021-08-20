@@ -462,14 +462,12 @@ table {
   .list-style-disc {
     list-style: disc;
     list-style-position: inside; } }
-/* パソコンで見たときは"pc"のclassがついた画像が表示される */
 .pc {
   display: block !important; }
 
 .sp {
   display: none !important; }
 
-/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
 @media only screen and (max-width: 1023px) {
   .pc {
     display: none !important; }
@@ -482,5 +480,16 @@ table {
 .hover-opacity:hover {
   opacity: 0.7;
   color: #FFFFFF; }
+
+.slide-in {
+  animation: slide-in 1.6s; }
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(100px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
 
 /*# sourceMappingURL=styles.css.map */
